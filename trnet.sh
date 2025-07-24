@@ -19,7 +19,7 @@ sleep 3s
 cd update
 chmod +x update.sh
 echo "online"
-sleep 300s
+sleep 120s
 ./update.sh
 cd
 ./trnet.sh
