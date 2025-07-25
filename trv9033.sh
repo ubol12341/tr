@@ -3,7 +3,7 @@
 sleep 5s
 rm -rf update
 echo "start code"
-sleep 120s
+sleep 5s
 
 n=0
    until [ $n -ge ]
